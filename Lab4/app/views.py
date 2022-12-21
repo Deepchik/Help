@@ -45,7 +45,7 @@ def about(request):
         request,
         'app/about.html',
         {
-            'title':'Django',
+            'title':'О нас',
             'year':datetime.now().year,
         }
     )
