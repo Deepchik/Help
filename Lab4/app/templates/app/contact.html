@@ -1,0 +1,20 @@
+{% extends "app/layout.html" %}
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<address>
+    HYPERPC<br />
+    г. Москва, ул. Новодмитровская д.2 к.1<br />
+    <abbr title="Phone">P:</abbr>
+    Мы с радостью поможем Вам с выбором компьютера и ответим на все интересующие вопросы
+    8 (800) 775-82-35
+    Ежедневно с 10:00 до 20:00
+</address>
+<address>
+    <strong>Тех. поддержка:</strong>   <a href="mailto:Support@example.com"> hyperpc@hyperpc.ru</a><br />
+    <strong>Маркетинг:</strong> <a href="mailto:Marketing@example.com">Marketinghyperpc@hyperpc.ru</a>
+</address>
+
+{% endblock %}
